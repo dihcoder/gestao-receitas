@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* Base styles for better mobile experience */
+body {
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    touch-action: manipulation; /* Improves responsiveness for touch devices */
+}
+
+/* Container adjustments for max width on larger screens while being fluid on small ones */
+.container {
+    max-width: 480px; /* Max width for a typical phone screen */
+}
+
+/* Custom styles for checked items in recipe details */
+.checked-item {
+    text-decoration: line-through;
+    color: #9ca3af; /* Tailwind gray-400 */
+}
+
+/* Visually hide input file but keep it accessible */
+#importInput {
+    display: none;
+}
+
+/* Custom scrollbar for better aesthetics */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #a0aec0; /* Tailwind gray-400 */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #718096; /* Tailwind gray-600 */
+}
+
+/* Ensure buttons are properly sized and readable on mobile */
+button, .btn {
+    padding: 0.75rem 1rem; /* Adjust padding */
+    font-size: 0.9rem; /* Slightly smaller font for better fit */
+}
+
+/* Adjust form input padding for touch targets */
+input[type="text"], textarea {
+    padding: 0.75rem;
+    font-size: 1rem;
+}
+
+/* Flexbox for ingredients/preparation fields for better alignment */
+.flex.space-x-2 {
+    align-items: center; /* Vertically align items */
+}
+
+.remove-ingredient-btn, .remove-preparation-btn {
+    flex-shrink: 0; /* Prevent button from shrinking */
+    padding: 0.5rem;
+    font-size: 1.25rem; /* Larger icon for easier tapping */
+}
+
+/* Styling for recipe cards in the list */
+.recipe-card {
+    cursor: grab; /* Indicate draggable */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.recipe-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Specific styles for the "no recipes" message */
+#noRecipesMessage {
+    padding: 1rem;
+    background-color: #f3f4f6; /* Tailwind gray-100 */
+    border-radius: 0.5rem;
+    border: 1px dashed #d1d5db; /* Tailwind gray-300 */
+}
+
+/* Sortable.js ghost and chosen item styles */
+.sortable-ghost {
+    opacity: 0.4;
+    background-color: #e2e8f0; /* Tailwind gray-200 */
+}
+
+.sortable-chosen {
+    cursor: grabbing;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.sortable-drag {
+    opacity: 1 !important; /* Ensure the dragging item is fully visible */
+}
+
+/* Add a visual cue for the drag handle on desktop, less critical on mobile */
+/* You could add a specific handle if desired, e.g., an icon */
+/* .recipe-card::before {
+    content: '⠿';
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.5rem;
+    color: #cbd5e0; // Tailwind gray-300
+    cursor: grab;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* Base styles for better mobile experience */
+body {
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* touch-action: manipulation; Isso pode interferir com Sortable.js handle, então removemos para a alça */
+}
+
+/* Container adjustments for max width on larger screens while being fluid on small ones */
+.container {
+    max-width: 480px; /* Max width for a typical phone screen */
+}
+
+/* Custom styles for checked items in recipe details */
+.checked-item {
+    text-decoration: line-through;
+    color: #9ca3af; /* Tailwind gray-400 */
+}
+
+/* Visually hide input file but keep it accessible */
+#importInput {
+    display: none;
+}
+
+/* Custom scrollbar for better aesthetics */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #a0aec0; /* Tailwind gray-400 */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #718096; /* Tailwind gray-600 */
+}
+
+/* Ensure buttons are properly sized and readable on mobile */
+button, .btn {
+    padding: 0.75rem 1rem; /* Adjust padding */
+    font-size: 0.9rem; /* Slightly smaller font for better fit */
+}
+
+/* Adjust form input padding for touch targets */
+input[type="text"], textarea {
+    padding: 0.75rem;
+    font-size: 1rem;
+}
+
+/* Flexbox for ingredients/preparation fields for better alignment */
+.flex.space-x-2 {
+    align-items: center; /* Vertically align items */
+}
+
+.remove-ingredient-btn, .remove-preparation-btn {
+    flex-shrink: 0; /* Prevent button from shrinking */
+    padding: 0.5rem;
+    font-size: 1.25rem; /* Larger icon for easier tapping */
+}
+
+/* Styling for recipe cards in the list */
+.recipe-card {
+    /* cursor: grab; Removido, pois agora temos uma alça */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    position: relative; /* Necessário para posicionar a alça */
+    padding-left: 40px; /* Espaço para a alça */
+}
+
+.recipe-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Specific styles for the "no recipes" message */
+#noRecipesMessage {
+    padding: 1rem;
+    background-color: #f3f4f6; /* Tailwind gray-100 */
+    border-radius: 0.5rem;
+    border: 1px dashed #d1d5db; /* Tailwind gray-300 */
+}
+
+/* Sortable.js ghost and chosen item styles */
+.sortable-ghost {
+    opacity: 0.4;
+    background-color: #e2e8f0; /* Tailwind gray-200 */
+}
+
+.sortable-chosen {
+    cursor: grabbing !important; /* Força o cursor de agarrar quando arrastando */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.sortable-drag {
+    opacity: 1 !important; /* Ensure the dragging item is fully visible */
+}
+
+/* Estilo para a alça de arrastar */
+.drag-handle {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.2rem;
+    color: #cbd5e0; /* Tailwind gray-300 */
+    cursor: grab;
+    padding: 8px; /* Aumenta a área de toque */
+}
+
+.drag-handle:hover {
+    color: #a0aec0; /* Tailwind gray-400 */
+}
+
+
+/* Estilo para o botão de voltar ao topo */
+#scrollToTopBtn {
+    opacity: 0;
+    pointer-events: none; /* Garante que o botão não interaja quando invisível */
+}
+
+#scrollToTopBtn.show {
+    opacity: 1;
+    pointer-events: auto; /* Permite interação quando visível */
+}
