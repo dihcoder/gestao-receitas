@@ -48,23 +48,23 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- Ordem inicial desejada das receitas (pelo nome) ---
     const initialRecipeOrderNames = [
+        "Pães Doces (30kg massa)",
+        "Pães Franceses",
         "Ximango",
         "Ferradura",
-        "Pão de queijo com tapioca",
-        "Biscoito bengala",
+        "Pão de Queijo com Tapioca",
+        "Biscoito Bengala",
         "Biscoito Arrupiado",
-        "Pão de queijo",
+        "Pão de Queijo",
         "Rosquinha",
         "Baurú",
-        "Pães solvados",
-        "Pães doces (30kg massa)",
-        "Pães franceses",
-        "Pães de batata, abóbora e aipim",
-        "Broas de milho/chocolate",
-        "Bolo de milho",
-        "Bolo de coco",
-        "Recheio de coco para bolos e tortas",
-        "Creme amarelo"
+        "Pães Solvados",
+        "Pães de Batata, Abóbora e Aipim",
+        "Broas de Milho / Chocolate",
+        "Bolo de Milho",
+        "Bolo de Coco",
+        "Recheio de Coco para Bolos e Tortas",
+        "Creme Amarelo"
     ];
 
 
@@ -221,11 +221,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Observações
         if (recipe.observations) {
-            detailObservationsText.textContent = recipe.observations;
+            detailObservationsText.innerHTML = recipe.observations;
             detailObservations.classList.remove('hidden');
         } else {
             detailObservations.classList.add('hidden');
-            detailObservationsText.textContent = '';
+            detailObservationsText.innerHTML = '';
         }
 
         showSection(recipeDetailSection);

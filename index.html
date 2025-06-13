@@ -14,23 +14,22 @@
         <h1 class="text-3xl font-bold text-center mb-6 text-blue-700">Receitas 🥖</h1>
 
         <div class="flex justify-between mb-6 space-x-2">
-            <button id="addRecipeBtn" class="flex-1 bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg shadow-md transition duration-300 ease-in-out text-sm">
+            <button id="addRecipeBtn" class="flex-1 bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-2 rounded-lg shadow-md transition duration-300 ease-in-out text-sm">
                 ➕ Adicionar Receita
             </button>
-            <button id="exportBtn" class="flex-1 bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-lg shadow-md transition duration-300 ease-in-out text-sm">
+            <button id="exportBtn" class="flex-1 bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-2 rounded-lg shadow-md transition duration-300 ease-in-out text-sm">
                 ⬇️ Exportar Dados
             </button>
-            <label for="importInput" class="flex-1 bg-yellow-600 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded-lg shadow-md cursor-pointer transition duration-300 ease-in-out text-sm text-center">
+            <label for="importInput" class="flex-1 bg-yellow-600 hover:bg-yellow-700 text-white font-bold py-2 px-2 rounded-lg shadow-md cursor-pointer transition duration-300 ease-in-out text-sm text-center">
                 ⬆️ Importar Dados
                 <input type="file" id="importInput" accept=".json" class="hidden">
             </label>
         </div>
 
         <section id="recipeListSection" class="bg-white p-4 rounded-lg shadow-lg mb-6">
-            <h2 class="text-xl font-semibold mb-4 text-center">Minhas Receitas</h2>
             <div class="mb-4 flex space-x-2">
                 <input type="text" id="searchInput" placeholder="Buscar receita por nome..." class="flex-1 p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
-                <button id="resetOrderBtn" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-lg shadow-md transition duration-300 ease-in-out text-sm">
+                <button id="resetOrderBtn" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-2 rounded-lg shadow-md transition duration-300 ease-in-out text-sm">
                     🔄 Resetar Ordem
                 </button>
             </div>

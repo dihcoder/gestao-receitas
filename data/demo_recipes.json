@@ -1,20 +1,196 @@
 [
   {
+    "id": 10,
+    "name": "Pães Doces (30kg massa)",
+    "ingredients": [
+      {
+        "text": "30kg trigo",
+        "checked": false
+      },
+      {
+        "text": "600g sal",
+        "checked": false
+      },
+      {
+        "text": "300g pó reforçador",
+        "checked": false
+      },
+      {
+        "text": "60g fermento para pães (variável)",
+        "checked": false
+      },
+      {
+        "text": "4kg açúcar",
+        "checked": false
+      },
+      {
+        "text": "Água gelada",
+        "checked": false
+      }
+    ],
+    "preparation": [
+      {
+        "text": "Colocar na masseira o trigo",
+        "checked": false
+      },
+      {
+        "text": "Pesar o sal, o pó reforçador e o fermento",
+        "checked": false
+      },
+      {
+        "text": "Levar à masseira",
+        "checked": false
+      },
+      {
+        "text": "Acrescentar o açúcar",
+        "checked": false
+      },
+      {
+        "text": "Misturar tudo",
+        "checked": false
+      },
+      {
+        "text": "Às 8:00h, misturar tudo ao passo que acrescenta a água gelada conforme necessidade",
+        "checked": false
+      }
+    ],
+    "observations": "<p class=\"text-black mt-2\">Modelagem:</p>\n<ul>\n<li>leite = 8 assadeiras,</li>\n<li>coco = 3 assadeiras,</li>\n<li>farofa = 1 assadeira,</li>\n<li>doce = 5 assadeiras,</li>\n<li>milho = 5 assadeiras,</li>\n<li>sonho = 2 assadeiras.</li>\n</ul>\n<p class=\"text-black mt-2\">Para fazer os pães de milho, acrescentar à massa remanescente:</p>\n<ul>\n<li>1 pacote de flocão de milho,</li>\n<li>200g de margarina,</li>\n<li>um pouco de corante.</li>\n</ul>"
+  },
+  {
+    "id": 11,
+    "name": "Pães Franceses",
+    "ingredients": [
+      {
+        "text": "<strong>Para 25kg de massa e temperatura normal:</strong>",
+        "checked": false
+      },
+      {
+        "text": "500g sal",
+        "checked": false
+      },
+      {
+        "text": "250g pó reforçador",
+        "checked": false
+      },
+      {
+        "text": "50g fermento para pães",
+        "checked": false
+      },
+      {
+        "text": "1,5 tampinha óleo emulsificante",
+        "checked": false
+      },
+      {
+        "text": "<strong>Para 25kg de massa e temperatura quente:</strong>",
+        "checked": false
+      },
+      {
+        "text": "500g sal",
+        "checked": false
+      },
+      {
+        "text": "250g pó reforçador",
+        "checked": false
+      },
+      {
+        "text": "30g fermento para pães",
+        "checked": false
+      },
+      {
+        "text": "1 tampinha óleo emulsificante",
+        "checked": false
+      },
+      {
+        "text": "<strong>Para 5kg de massa, temperatura normal e fermentação em 6h:</strong>",
+        "checked": false
+      },
+      {
+        "text": "100g sal",
+        "checked": false
+      },
+      {
+        "text": "50g pó reforçador",
+        "checked": false
+      },
+      {
+        "text": "50g fermento para pães",
+        "checked": false
+      },
+      {
+        "text": "0,3 tampinha oleo emulsificante",
+        "checked": false
+      }
+    ],
+    "preparation": [
+      {
+        "text": "Início às 10:00h para fermentação no próximo dia",
+        "checked": false
+      },
+      {
+        "text": "Colocar na masseira o trigo",
+        "checked": false
+      },
+      {
+        "text": "Pesar o sal, o pó reforçador e o fermento",
+        "checked": false
+      },
+      {
+        "text": "Levar à masseira e misturar tudo",
+        "checked": false
+      },
+      {
+        "text": "Acrescentar água gelada conforme necessidade",
+        "checked": false
+      }
+    ],
+    "observations": "25kg de massa rende 20 assadeiras."
+  },
+  {
     "id": 1,
     "name": "Ximango",
     "ingredients": [
-      {"text": "100g margarina", "checked": false},
-      {"text": "1kg goma", "checked": false},
-      {"text": "20g sal", "checked": false},
-      {"text": "2 ovos", "checked": false},
-      {"text": "1kg água", "checked": false}
+      {
+        "text": "100g margarina",
+        "checked": false
+      },
+      {
+        "text": "1kg goma",
+        "checked": false
+      },
+      {
+        "text": "20g sal",
+        "checked": false
+      },
+      {
+        "text": "2 ovos",
+        "checked": false
+      },
+      {
+        "text": "1kg água",
+        "checked": false
+      }
     ],
     "preparation": [
-      {"text": "ferver em um caldeirão a água com margarina", "checked": false},
-      {"text": "colocar na masseira a goma e o sal", "checked": false},
-      {"text": "quebrar os ovos numa vasilha", "checked": false},
-      {"text": "acrescentar na masseira a mistura fervente", "checked": false},
-      {"text": "acrescentar os ovos", "checked": false}
+      {
+        "text": "Ferver em um caldeirão a água com margarina",
+        "checked": false
+      },
+      {
+        "text": "Colocar na masseira a goma e o sal",
+        "checked": false
+      },
+      {
+        "text": "Quebrar os ovos numa vasilha",
+        "checked": false
+      },
+      {
+        "text": "Acrescentar na masseira a mistura fervente",
+        "checked": false
+      },
+      {
+        "text": "Acrescentar os ovos",
+        "checked": false
+      }
     ],
     "observations": ""
   },
@@ -22,41 +198,162 @@
     "id": 2,
     "name": "Ferradura",
     "ingredients": [
-      {"text": "750g leite", "checked": false},
-      {"text": "750g oleo", "checked": false},
-      {"text": "750g água", "checked": false},
-      {"text": "3kg goma", "checked": false},
-      {"text": "60g sal", "checked": false},
-      {"text": "10 ovos", "checked": false}
+      {
+        "text": "750g leite",
+        "checked": false
+      },
+      {
+        "text": "750g oleo",
+        "checked": false
+      },
+      {
+        "text": "750g água",
+        "checked": false
+      },
+      {
+        "text": "3kg goma",
+        "checked": false
+      },
+      {
+        "text": "60g sal",
+        "checked": false
+      },
+      {
+        "text": "10 ovos",
+        "checked": false
+      }
     ],
     "preparation": [
-      {"text": "ferver num caldeirão a água, o leite e o óleo", "checked": false},
-      {"text": "colocar na masseira a goma e o sal", "checked": false},
-      {"text": "quebrar os ovos em uma vasilha", "checked": false},
-      {"text": "levar a mistura fervente à masseira", "checked": false},
-      {"text": "acrescentar os ovos", "checked": false}
+      {
+        "text": "Ferver num caldeirão a água, o leite e o óleo",
+        "checked": false
+      },
+      {
+        "text": "Colocar na masseira a goma e o sal",
+        "checked": false
+      },
+      {
+        "text": "Quebrar os ovos em uma vasilha",
+        "checked": false
+      },
+      {
+        "text": "Levar a mistura fervente à masseira",
+        "checked": false
+      },
+      {
+        "text": "Acrescentar os ovos",
+        "checked": false
+      }
     ],
-    "observations": "cuidado para não derramar ao fogo; não pode dobrar a receita"
+    "observations": "<p>Cuidado para não derramar ao fogo;</p><p>Não pode dobrar a receita</p>"
   },
   {
     "id": 3,
-    "name": "Pão de queijo com tapioca",
+    "name": "Pão de Queijo com Tapioca",
     "ingredients": [
-      {"text": "300g tapioca", "checked": false},
-      {"text": "700g leite", "checked": false},
-      {"text": "300g margarina", "checked": false},
-      {"text": "750g goma", "checked": false},
-      {"text": "20g sal", "checked": false},
-      {"text": "4 ovos", "checked": false}
+      {
+        "text": "300g tapioca",
+        "checked": false
+      },
+      {
+        "text": "700g leite",
+        "checked": false
+      },
+      {
+        "text": "300g margarina",
+        "checked": false
+      },
+      {
+        "text": "750g goma",
+        "checked": false
+      },
+      {
+        "text": "20g sal",
+        "checked": false
+      },
+      {
+        "text": "4 ovos",
+        "checked": false
+      }
     ],
     "preparation": [
-      {"text": "colocar para hidratar a tapioca no leite", "checked": false},
-      {"text": "ferver a margarina", "checked": false},
-      {"text": "colocar numa bacia a goma e o sal", "checked": false},
-      {"text": "quebrar numa vasilha os ovos", "checked": false},
-      {"text": "escaldar a goma da bacia com a margarina fervente", "checked": false},
-      {"text": "acrescentar a tapioca hidratada", "checked": false},
-      {"text": "acrescentar os ovos e misturar tudo à mão", "checked": false}
+      {
+        "text": "Colocar para hidratar a tapioca no leite",
+        "checked": false
+      },
+      {
+        "text": "Ferver a margarina",
+        "checked": false
+      },
+      {
+        "text": "Colocar numa bacia a goma e o sal",
+        "checked": false
+      },
+      {
+        "text": "Quebrar numa vasilha os ovos",
+        "checked": false
+      },
+      {
+        "text": "Escaldar a goma da bacia com a margarina fervente",
+        "checked": false
+      },
+      {
+        "text": "Acrescentar a tapioca hidratada",
+        "checked": false
+      },
+      {
+        "text": "Acrescentar os ovos e misturar tudo à mão",
+        "checked": false
+      }
+    ],
+    "observations": ""
+  },
+  {
+    "id": 17,
+    "name": "Biscoito Bengala",
+    "ingredients": [
+      {
+        "text": "400g tapioca",
+        "checked": false
+      },
+      {
+        "text": "800g goma",
+        "checked": false
+      },
+      {
+        "text": "30g sal",
+        "checked": false
+      },
+      {
+        "text": "200g queijo",
+        "checked": false
+      },
+      {
+        "text": "150g margarina",
+        "checked": false
+      },
+      {
+        "text": "5 ovos",
+        "checked": false
+      },
+      {
+        "text": "1L leite",
+        "checked": false
+      }
+    ],
+    "preparation": [
+      {
+        "text": "Misturar a tapioca, goma, sal e queijo ralado.",
+        "checked": false
+      },
+      {
+        "text": "Adicionar a margarina, ovos e leite aos poucos, amassando até obter uma massa homogênea.",
+        "checked": false
+      },
+      {
+        "text": "Modelar em formato de bengala e assar.",
+        "checked": false
+      }
     ],
     "observations": ""
   },
@@ -64,51 +361,81 @@
     "id": 4,
     "name": "Biscoito Arrupiado",
     "ingredients": [
-      {"text": "250g tapioca", "checked": false},
-      {"text": "500g leite", "checked": false},
-      {"text": "400g margarina", "checked": false},
-      {"text": "750g goma", "checked": false},
-      {"text": "20g sal", "checked": false},
-      {"text": "5 ovos", "checked": false}
+      {
+        "text": "250g tapioca",
+        "checked": false
+      },
+      {
+        "text": "500g leite",
+        "checked": false
+      },
+      {
+        "text": "400g margarina",
+        "checked": false
+      },
+      {
+        "text": "750g goma",
+        "checked": false
+      },
+      {
+        "text": "20g sal",
+        "checked": false
+      },
+      {
+        "text": "5 ovos",
+        "checked": false
+      }
     ],
     "preparation": [
-      {"text": "Misturar tudo à mão numa bacia", "checked": false},
-      {"text": "para modelar, molhar as palmas das mãos com água", "checked": false}
+      {
+        "text": "Misturar tudo à mão numa bacia",
+        "checked": false
+      },
+      {
+        "text": "Para modelar, molhar as palmas das mãos com água",
+        "checked": false
+      }
     ],
     "observations": ""
   },
   {
     "id": 5,
-    "name": "Pão de queijo",
+    "name": "Pão de Queijo",
     "ingredients": [
-      {"text": "2kg massa de pão de queijo", "checked": false},
-      {"text": "600g queijo", "checked": false},
-      {"text": "800g água", "checked": false},
-      {"text": "16 ovos", "checked": false}
+      {
+        "text": "2kg massa de pão de queijo",
+        "checked": false
+      },
+      {
+        "text": "600g queijo",
+        "checked": false
+      },
+      {
+        "text": "800g água",
+        "checked": false
+      },
+      {
+        "text": "16 ovos",
+        "checked": false
+      }
     ],
     "preparation": [
-      {"text": "colocar a massa de pão de queijo na masseira", "checked": false},
-      {"text": "ralar o queijo", "checked": false},
-      {"text": "colocar num caldeirão a água e os ovos", "checked": false},
-      {"text": "levar tudo à masseira", "checked": false}
-    ],
-    "observations": ""
-  },
-  {
-    "id": 6,
-    "name": "Biscoito Chipa",
-    "ingredients": [
-      {"text": "500g goma", "checked": false},
-      {"text": "10g sal", "checked": false},
-      {"text": "100g manteiga", "checked": false},
-      {"text": "2 ovos", "checked": false},
-      {"text": "200g leite", "checked": false},
-      {"text": "200g queijo", "checked": false}
-    ],
-    "preparation": [
-      {"text": "ralar o queijo", "checked": false},
-      {"text": "quebrar os ovos", "checked": false},
-      {"text": "misturar tudo à mão", "checked": false}
+      {
+        "text": "Colocar a massa de pão de queijo na masseira",
+        "checked": false
+      },
+      {
+        "text": "Ralar o queijo",
+        "checked": false
+      },
+      {
+        "text": "Colocar num caldeirão a água e os ovos",
+        "checked": false
+      },
+      {
+        "text": "Levar tudo à masseira",
+        "checked": false
+      }
     ],
     "observations": ""
   },
@@ -116,18 +443,48 @@
     "id": 7,
     "name": "Rosquinha",
     "ingredients": [
-      {"text": "1.3kg goma", "checked": false},
-      {"text": "900g trigo", "checked": false},
-      {"text": "600g açúcar", "checked": false},
-      {"text": "60g fermento para bolo", "checked": false},
-      {"text": "150g margarina", "checked": false},
-      {"text": "600g leite", "checked": false},
-      {"text": "9 ovos", "checked": false}
+      {
+        "text": "1.3kg goma",
+        "checked": false
+      },
+      {
+        "text": "900g trigo",
+        "checked": false
+      },
+      {
+        "text": "600g açúcar",
+        "checked": false
+      },
+      {
+        "text": "60g fermento para bolo",
+        "checked": false
+      },
+      {
+        "text": "150g margarina",
+        "checked": false
+      },
+      {
+        "text": "600g leite",
+        "checked": false
+      },
+      {
+        "text": "9 ovos",
+        "checked": false
+      }
     ],
     "preparation": [
-      {"text": "levar à masseira a goma, o trigo, o açúcar e o fermento", "checked": false},
-      {"text": "ferver num caldeirão a margarina, o leite e os ovos", "checked": false},
-      {"text": "acrescentar a mistura fervente à masseira", "checked": false}
+      {
+        "text": "Levar à masseira a goma, o trigo, o açúcar e o fermento",
+        "checked": false
+      },
+      {
+        "text": "Ferver num caldeirão a margarina, o leite e os ovos",
+        "checked": false
+      },
+      {
+        "text": "Acrescentar a mistura fervente à masseira",
+        "checked": false
+      }
     ],
     "observations": ""
   },
@@ -135,217 +492,494 @@
     "id": 8,
     "name": "Baurú",
     "ingredients": [
-      {"text": "2.6kg trigo", "checked": false},
-      {"text": "800g leite", "checked": false},
-      {"text": "8 ovos", "checked": false},
-      {"text": "600g açúcar", "checked": false},
-      {"text": "40g sal", "checked": false},
-      {"text": "400g oleo", "checked": false},
-      {"text": "100g fermento para pães", "checked": false},
-      {"text": "800g leite morno", "checked": false}
+      {
+        "text": "2.6kg trigo",
+        "checked": true
+      },
+      {
+        "text": "800g leite",
+        "checked": true
+      },
+      {
+        "text": "8 ovos",
+        "checked": true
+      },
+      {
+        "text": "600g açúcar",
+        "checked": true
+      },
+      {
+        "text": "40g sal",
+        "checked": true
+      },
+      {
+        "text": "400g oleo",
+        "checked": true
+      },
+      {
+        "text": "120g fermento para pães *",
+        "checked": true
+      },
+      {
+        "text": "800g leite morno",
+        "checked": true
+      }
     ],
     "preparation": [
-      {"text": "colocar na masseira o trigo", "checked": false},
-      {"text": "mornar o leite", "checked": false},
-      {"text": "bater no liquidificador os ovos, o óleo, o sal, o açúcar, o fermento e o leite morno", "checked": false},
-      {"text": "levár a mistura à masseira", "checked": false},
-      {"text": "deixar a massa descansar por 10 minutos antes de modelar", "checked": false}
+      {
+        "text": "Colocar na masseira o trigo",
+        "checked": false
+      },
+      {
+        "text": "Mornar o leite",
+        "checked": false
+      },
+      {
+        "text": "Bater no liquidificador os ovos, o óleo, o sal, o açúcar, o fermento e o leite morno",
+        "checked": false
+      },
+      {
+        "text": "Levar a mistura à masseira",
+        "checked": false
+      },
+      {
+        "text": "Deixar a massa descansar por 10 minutos antes de modelar",
+        "checked": false
+      }
     ],
-    "observations": ""
+    "observations": "* A quantidade de fermento pode aumentar dependendo da temperatura ambiente"
   },
   {
     "id": 9,
-    "name": "Pães solvados",
+    "name": "Pães Solvados",
     "ingredients": [
-      {"text": "3kg trigo", "checked": false},
-      {"text": "400g açúcar", "checked": false},
-      {"text": "60g pó reforçador", "checked": false},
-      {"text": "60g sal", "checked": false},
-      {"text": "60g leite em pó", "checked": false},
-      {"text": "60g fermento para pães", "checked": false},
-      {"text": "100g margarina", "checked": false},
-      {"text": "6 ovos", "checked": false},
-      {"text": "1.5L água (gelada)", "checked": false}
+      {
+        "text": "3kg trigo",
+        "checked": false
+      },
+      {
+        "text": "400g açúcar",
+        "checked": false
+      },
+      {
+        "text": "60g pó reforçador",
+        "checked": false
+      },
+      {
+        "text": "60g sal",
+        "checked": false
+      },
+      {
+        "text": "60g leite em pó",
+        "checked": false
+      },
+      {
+        "text": "60g fermento para pães",
+        "checked": false
+      },
+      {
+        "text": "100g margarina",
+        "checked": false
+      },
+      {
+        "text": "6 ovos",
+        "checked": false
+      },
+      {
+        "text": "1.5L água (gelada)",
+        "checked": false
+      }
     ],
     "preparation": [
-      {"text": "colocar numa bacia o trigo, o açúcar, o pó reforçador, o sal, o leite em pó e o fermento para pão", "checked": false},
-      {"text": "colocar num caldeirão a margarina, os ovos e a água gelada", "checked": false},
-      {"text": "levar tudo à masseira", "checked": false}
+      {
+        "text": "Colocar numa bacia o trigo, o açúcar, o pó reforçador, o sal, o leite em pó e o fermento para pão",
+        "checked": false
+      },
+      {
+        "text": "Colocar num caldeirão a margarina, os ovos e a água gelada",
+        "checked": false
+      },
+      {
+        "text": "Levar tudo à masseira",
+        "checked": false
+      }
     ],
-    "observations": "Modelagem: formato pão doce, formato pão comprido, formato enroladinho. Vai farofa de trigo, goiabada e creme amarelo."
-  },
-  {
-    "id": 10,
-    "name": "Pães doces (30kg massa)",
-    "ingredients": [
-      {"text": "30kg trigo", "checked": false},
-      {"text": "600g sal", "checked": false},
-      {"text": "300g pó reforçador", "checked": false},
-      {"text": "60g fermento para pães (variável)", "checked": false},
-      {"text": "4kg açúcar", "checked": false},
-      {"text": "água gelada", "checked": false}
-    ],
-    "preparation": [
-      {"text": "colocar na masseira o trigo", "checked": false},
-      {"text": "pesar o sal, o pó reforçador e o fermento", "checked": false},
-      {"text": "levar à masseira", "checked": false},
-      {"text": "acrescentar o açúcar", "checked": false},
-      {"text": "misturar tudo", "checked": false},
-      {"text": "às 8:00h, misturar tudo ao passo que acrescenta a água gelada conforme necessidade", "checked": false}
-    ],
-    "observations": "Modelagem: leite = 8 assadeiras, coco = 3 assadeiras, farofa = 1 assadeira, doce = 5 assadeiras, milho = 5 assadeiras, sonho = 2 assadeiras. Para fazer os pães de milho, acrescentar à massa remanescente: 1 pacote de flocão de milho, 200g de margarina, um pouco de corante."
-  },
-  {
-    "id": 11,
-    "name": "Pães franceses",
-    "ingredients": [
-      {"text": "Para 25kg de massa e temperatura normal: 500g sal, 250g pó reforçador, 50g fermento para pães, 1.5 tampinha oleo emulsificante", "checked": false},
-      {"text": "Para 25kg de massa e temperatura quente: 500g sal, 250g pó reforçador, 30g fermento para pães, 1 tampinha oleo emulsificante", "checked": false},
-      {"text": "Para 5kg de massa, temperatura normal e fermentação em 6h: 100g sal, 50g pó reforçador, 50g fermento para pães, 0.3 tampinha oleo emulsificante", "checked": false}
-    ],
-    "preparation": [
-      {"text": "início às 10:00h e fermentação no próximo dia", "checked": false},
-      {"text": "colocar na masseira o trigo", "checked": false},
-      {"text": "pesar o sal, o pó reforçador e o fermento", "checked": false},
-      {"text": "levar à masseira e misturar tudo", "checked": false},
-      {"text": "Acrescentar água gelada conforme necessidade", "checked": false}
-    ],
-    "observations": "Para 25kg de massa, rendimento 20 assadeiras."
+    "observations": "<p class=\"text-black mt-2\">Modelagem:</p><ul><li>Formato pão doce,</li><li>Formato pão comprido,</li><li>Formato enroladinho.</li></ul><p>Vai farofa de trigo, goiabada e creme amarelo.</p>"
   },
   {
     "id": 12,
-    "name": "Pães de batata, abóbora e aipim",
+    "name": "Pães de Batata, Abóbora e Aipim",
     "ingredients": [
-      {"text": "meio balde de trigo", "checked": false},
-      {"text": "1kg açúcar", "checked": false},
-      {"text": "100g sal", "checked": false},
-      {"text": "50g pó reforçador", "checked": false},
-      {"text": "15g fermento para pães", "checked": false},
-      {"text": "1kg batata doce (ou item de sua escolha)", "checked": false},
-      {"text": "1kg leite", "checked": false},
-      {"text": "200g margarina", "checked": false},
-      {"text": "6 ovos", "checked": false},
-      {"text": "1 colherzinha de corante", "checked": false}
+      {
+        "text": "Meio balde de trigo",
+        "checked": false
+      },
+      {
+        "text": "1kg açúcar",
+        "checked": false
+      },
+      {
+        "text": "100g sal",
+        "checked": false
+      },
+      {
+        "text": "50g pó reforçador",
+        "checked": false
+      },
+      {
+        "text": "15g fermento para pães",
+        "checked": false
+      },
+      {
+        "text": "1kg batata doce (ou item de sua escolha)",
+        "checked": false
+      },
+      {
+        "text": "1kg leite",
+        "checked": false
+      },
+      {
+        "text": "200g margarina",
+        "checked": false
+      },
+      {
+        "text": "6 ovos",
+        "checked": false
+      },
+      {
+        "text": "1 colherzinha de corante",
+        "checked": false
+      }
     ],
     "preparation": [
-      {"text": "colocar na masseira o trigo e o açúcar", "checked": false},
-      {"text": "pesar numa vasilha o sal, o pó reforçador e o fermento para pães", "checked": false},
-      {"text": "colocar num caldeirão o leite, a batata, a margarina e os ovos", "checked": false},
-      {"text": "levar à masseira", "checked": false},
-      {"text": "acrescentar o corante", "checked": false}
+      {
+        "text": "Colocar na masseira o trigo e o açúcar",
+        "checked": false
+      },
+      {
+        "text": "Pesar numa vasilha o sal, o pó reforçador e o fermento para pães",
+        "checked": false
+      },
+      {
+        "text": "Colocar num caldeirão o leite, a batata, a margarina e os ovos",
+        "checked": false
+      },
+      {
+        "text": "Levar à masseira",
+        "checked": false
+      },
+      {
+        "text": "Acrescentar o corante",
+        "checked": false
+      }
     ],
     "observations": "Modelar como pães de milho e pincelar com gema de ovos. Para sabor abóbora ou aipim, substituir a batata."
   },
   {
     "id": 13,
-    "name": "Broas de milho/chocolate",
+    "name": "Broas de Milho / Chocolate",
     "ingredients": [
-      {"text": "1kg fubá de milho", "checked": false},
-      {"text": "1kg trigo", "checked": false},
-      {"text": "60g fermento para bolo", "checked": false},
-      {"text": "700g açúcar", "checked": false},
-      {"text": "400g margarina", "checked": false},
-      {"text": "160g leite", "checked": false},
-      {"text": "10 ovos", "checked": false}
+      {
+        "text": "1kg fubá de milho",
+        "checked": true
+      },
+      {
+        "text": "1kg trigo",
+        "checked": true
+      },
+      {
+        "text": "60g fermento para bolo",
+        "checked": true
+      },
+      {
+        "text": "700g açúcar",
+        "checked": true
+      },
+      {
+        "text": "400g margarina",
+        "checked": true
+      },
+      {
+        "text": "180g leite",
+        "checked": true
+      },
+      {
+        "text": "10 ovos",
+        "checked": false
+      }
     ],
     "preparation": [
-      {"text": "pesar numa bacia o fubá de milho, o trigo e o fermento", "checked": false},
-      {"text": "colocar num caldeirão o açúcar, a margarina, o leite e os ovos", "checked": false},
-      {"text": "levar tudo à masseira", "checked": false}
+      {
+        "text": "Pesar numa bacia o fubá de milho, o trigo e o fermento",
+        "checked": false
+      },
+      {
+        "text": "Colocar num caldeirão o açúcar, a margarina, o leite e os ovos",
+        "checked": false
+      },
+      {
+        "text": "Levar tudo à masseira",
+        "checked": false
+      }
     ],
     "observations": "Para broa de chocolate, usar 500g de fubá de milho e 500g de chocolate em pó."
   },
   {
     "id": 14,
-    "name": "Bolo de milho",
+    "name": "Bolo de Milho",
     "ingredients": [
-      {"text": "900g leite", "checked": false},
-      {"text": "150g oleo", "checked": false},
-      {"text": "100g margarina", "checked": false},
-      {"text": "10 ovos", "checked": false},
-      {"text": "1/2 colher corante", "checked": false},
-      {"text": "700g açúcar", "checked": false},
-      {"text": "600g trigo", "checked": false},
-      {"text": "100g queijo", "checked": false},
-      {"text": "60g fermento para bolo", "checked": false},
-      {"text": "200g fubá de milho", "checked": false}
+      {
+        "text": "900g leite",
+        "checked": false
+      },
+      {
+        "text": "150g oleo",
+        "checked": false
+      },
+      {
+        "text": "100g margarina",
+        "checked": false
+      },
+      {
+        "text": "10 ovos",
+        "checked": false
+      },
+      {
+        "text": "Meia colher corante",
+        "checked": false
+      },
+      {
+        "text": "700g açúcar",
+        "checked": false
+      },
+      {
+        "text": "600g trigo",
+        "checked": false
+      },
+      {
+        "text": "100g queijo",
+        "checked": false
+      },
+      {
+        "text": "60g fermento para bolo",
+        "checked": false
+      },
+      {
+        "text": "200g fubá de milho",
+        "checked": false
+      }
     ],
     "preparation": [
-      {"text": "Misturar todos os ingredientes líquidos. Adicionar os secos e misturar. Por último, o fubá e o queijo.", "checked": false},
-      {"text": "Levar ao forno pré-aquecido.", "checked": false}
+      {
+        "text": "Misturar todos os ingredientes líquidos.",
+        "checked": false
+      },
+      {
+        "text": "Adicionar os secos e misturar.",
+        "checked": false
+      },
+      {
+        "text": "Por último, o fubá e o queijo.",
+        "checked": false
+      },
+      {
+        "text": "Levar ao forno pré-aquecido.",
+        "checked": false
+      }
     ],
     "observations": ""
   },
   {
     "id": 15,
-    "name": "Bolo de coco",
+    "name": "Bolo de Coco",
     "ingredients": [
-      {"text": "300g leite", "checked": false},
-      {"text": "200g margarina", "checked": false},
-      {"text": "4 ovos", "checked": false},
-      {"text": "essência de coco", "checked": false},
-      {"text": "350g açúcar", "checked": false},
-      {"text": "450g trigo", "checked": false},
-      {"text": "100g coco ralado", "checked": false},
-      {"text": "30g fermento para bolo", "checked": false}
+      {
+        "text": "300g leite",
+        "checked": false
+      },
+      {
+        "text": "200g margarina",
+        "checked": false
+      },
+      {
+        "text": "4 ovos",
+        "checked": false
+      },
+      {
+        "text": "Essência de coco",
+        "checked": false
+      },
+      {
+        "text": "350g açúcar",
+        "checked": false
+      },
+      {
+        "text": "450g trigo",
+        "checked": false
+      },
+      {
+        "text": "100g coco ralado",
+        "checked": false
+      },
+      {
+        "text": "30g fermento para bolo",
+        "checked": false
+      }
     ],
     "preparation": [
-      {"text": "Misturar a margarina, açúcar e ovos. Adicionar o leite e a essência. Incorporar o trigo e o coco. Adicionar o fermento por último.", "checked": false},
-      {"text": "Levar ao forno.", "checked": false}
+      {
+        "text": "Misturar a margarina, açúcar e ovos.",
+        "checked": false
+      },
+      {
+        "text": "Adicionar o leite e a essência.",
+        "checked": false
+      },
+      {
+        "text": "Incorporar o trigo e o coco.",
+        "checked": false
+      },
+      
+      {
+        "text": "Por último, adicionar o fermento.",
+        "checked": false
+      },
+      {
+        "text": "Levar ao forno.",
+        "checked": false
+      }
     ],
     "observations": ""
   },
   {
     "id": 16,
-    "name": "Recheio de coco para bolos e tortas",
+    "name": "Recheio de Coco para Bolos e Tortas",
     "ingredients": [
-      {"text": "600g leite", "checked": false},
-      {"text": "300g coco ralado", "checked": false},
-      {"text": "1 colher maizena", "checked": false},
-      {"text": "1 caixa leite condensado", "checked": false}
+      {
+        "text": "600g leite",
+        "checked": false
+      },
+      {
+        "text": "300g coco ralado",
+        "checked": false
+      },
+      {
+        "text": "1 colher maizena",
+        "checked": false
+      },
+      {
+        "text": "1 caixa leite condensado",
+        "checked": false
+      }
     ],
     "preparation": [
-      {"text": "Dissolver a maizena em um pouco de leite frio.", "checked": false},
-      {"text": "Misturar todos os ingredientes em uma panela.", "checked": false},
-      {"text": "Levar ao fogo baixo, mexendo sempre, até engrossar.", "checked": false},
-      {"text": "Deixar esfriar antes de usar.", "checked": false}
-    ],
-    "observations": ""
-  },
-  {
-    "id": 17,
-    "name": "Biscoito bengala",
-    "ingredients": [
-      {"text": "400g tapioca", "checked": false},
-      {"text": "800g goma", "checked": false},
-      {"text": "30g sal", "checked": false},
-      {"text": "200g queijo", "checked": false},
-      {"text": "150g margarina", "checked": false},
-      {"text": "5 ovos", "checked": false},
-      {"text": "1L leite", "checked": false}
-    ],
-    "preparation": [
-      {"text": "Misturar a tapioca, goma, sal e queijo ralado.", "checked": false},
-      {"text": "Adicionar a margarina, ovos e leite aos poucos, amassando até obter uma massa homogênea.", "checked": false},
-      {"text": "Modelar em formato de bengala e assar.", "checked": false}
+      {
+        "text": "Dissolver a maizena em um pouco de leite frio.",
+        "checked": false
+      },
+      {
+        "text": "Misturar todos os ingredientes em uma panela.",
+        "checked": false
+      },
+      {
+        "text": "Levar ao fogo baixo, mexendo sempre, até engrossar.",
+        "checked": false
+      },
+      {
+        "text": "Deixar esfriar antes de usar.",
+        "checked": false
+      }
     ],
     "observations": ""
   },
   {
     "id": 18,
-    "name": "Creme amarelo",
+    "name": "Creme Amarelo",
     "ingredients": [
-      {"text": "3 colheres maizena", "checked": false},
-      {"text": "3 gemas ovos", "checked": false},
-      {"text": "250g leite", "checked": false},
-      {"text": "1 caixa leite condensado", "checked": false}
+      {
+        "text": "3 colheres maizena",
+        "checked": false
+      },
+      {
+        "text": "3 gemas ovos",
+        "checked": false
+      },
+      {
+        "text": "250g leite",
+        "checked": false
+      },
+      {
+        "text": "1 caixa leite condensado",
+        "checked": false
+      }
     ],
     "preparation": [
-      {"text": "Dissolver a maizena em um pouco do leite frio.", "checked": false},
-      {"text": "Em uma panela, misturar as gemas, o restante do leite e o leite condensado. Adicionar a maizena dissolvida.", "checked": false},
-      {"text": "Levar ao fogo baixo, mexendo sempre, até engrossar e adquirir a consistência de creme.", "checked": false},
-      {"text": "Deixar esfriar e reservar.", "checked": false}
+      {
+        "text": "Dissolver a maizena em um pouco do leite frio.",
+        "checked": false
+      },
+      {
+        "text": "Em uma panela, misturar as gemas, o restante do leite e o leite condensado.",
+        "checked": false
+      },
+      {
+        "text": "Adicionar a maizena dissolvida.",
+        "checked": false
+      },
+      {
+        "text": "Levar ao fogo baixo, mexendo sempre, até engrossar e adquirir a consistência de creme.",
+        "checked": false
+      },
+      {
+        "text": "Deixar esfriar e reservar.",
+        "checked": false
+      }
     ],
     "observations": "Excelente para rechear pães doces e sonhos."
+  },
+  {
+    "id": 6,
+    "name": "Biscoito Chipa",
+    "ingredients": [
+      {
+        "text": "500g goma",
+        "checked": false
+      },
+      {
+        "text": "10g sal",
+        "checked": false
+      },
+      {
+        "text": "100g manteiga",
+        "checked": false
+      },
+      {
+        "text": "2 ovos",
+        "checked": false
+      },
+      {
+        "text": "200g leite",
+        "checked": false
+      },
+      {
+        "text": "200g queijo",
+        "checked": false
+      }
+    ],
+    "preparation": [
+      {
+        "text": "Ralar o queijo",
+        "checked": false
+      },
+      {
+        "text": "Quebrar os ovos",
+        "checked": false
+      },
+      {
+        "text": "Misturar tudo à mão",
+        "checked": false
+      }
+    ],
+    "observations": ""
   }
 ]

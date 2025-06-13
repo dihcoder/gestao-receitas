@@ -239,6 +239,10 @@ input[type="text"], textarea {
 /* Estilo para o botão de voltar ao topo */
 #scrollToTopBtn {
     opacity: 0;
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-content: center;
     pointer-events: none; /* Garante que o botão não interaja quando invisível */
 }
 
